@@ -19,7 +19,7 @@ Menu.defaultProps = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        flexDirection: 'column',
+        listStyleType: 'none'
     }
 }
 

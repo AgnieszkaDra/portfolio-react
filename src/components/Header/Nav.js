@@ -8,11 +8,10 @@ const Nav = props => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        flexDirection: 'column',
-        backgroundColor: 'pink'
+        backgroundColor: 'pink',
     }
     return (
-        <nav style={vertical}>
+       <nav style={vertical}>
             <Menu elements={props.content}></Menu>
        </nav>
     )
